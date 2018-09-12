@@ -2,16 +2,16 @@
 
 /* @var $this yii\web\View */
 
-$this->title = 'My Yii Application';
+$this->title = 'NZHANDYMAN';
 
 use app\assets\AppAsset;
 AppAsset::register($this);
 /* load template CSS */
-AppAsset::addCss($this,Yii::$app->request->baseUrl."/css/bootstrap.min.css");
-AppAsset::addCss($this,Yii::$app->request->baseUrl."/css/fontawesome-all.min.css");
-AppAsset::addCss($this,Yii::$app->request->baseUrl."/css/tooplate-style.css");
+AppAsset::addCss($this,Yii::$app->request->baseUrl."/index_theme/css/bootstrap.min.css");
+AppAsset::addCss($this,Yii::$app->request->baseUrl."/index_theme/css/fontawesome-all.min.css");
+AppAsset::addCss($this,Yii::$app->request->baseUrl."/index_theme/css/tooplate-style.css");
 /* load custom CSS */
-AppAsset::addCss($this,Yii::$app->request->baseUrl."/css/index-style.css");
+AppAsset::addCss($this,Yii::$app->request->baseUrl."/index_theme/css/index-style.css");
 /* */
 AppAsset::addScript($this,Yii::$app->request->baseUrl."/js/.js");
 
@@ -37,7 +37,7 @@ AppAsset::addScript($this,Yii::$app->request->baseUrl."/js/.js");
         <!-- main, text -->
       <div class="container text-center tm-welcome-container">
         <div class="tm-welcome welcome-showbox">
-          <img src="/yii2app/web/img/header-brand-500-58.png" alt="Image" class="img-fluid">
+          <img src="/yii2app/web/index_theme/img/header-brand-500-58.png" alt="Image" class="img-fluid">
           <h1 class="text-uppercase mb-3 tm-site-name"><br />Have skills?</h1>
           <p class="tm-site-description"><br />Sign in to find more clients, turn your skills into profit.</p>
           <h1 class="text-uppercase mb-3 tm-site-name"><br />Have odd jobs? </h1>
@@ -65,7 +65,7 @@ AppAsset::addScript($this,Yii::$app->request->baseUrl."/js/.js");
       <div class="row tm-albums-container grid">
         <div class="col-sm-6 col-12 col-md-6 col-lg-3 col-xl-3 tm-album-col">
           <figure class="effect-sadie">
-            <img src="/yii2app/web/img/slide-2.jpg" alt="Image" class="img-fluid">
+            <img src="/yii2app/web/index_theme/img/slide-2.jpg" alt="Image" class="img-fluid">
             <figcaption>
               <!-- <h2>First Album</h2> -->
               <p>Rollover text and description text goes here over mouse over...</p>
@@ -74,7 +74,7 @@ AppAsset::addScript($this,Yii::$app->request->baseUrl."/js/.js");
         </div>
         <div class="col-sm-6 col-12 col-md-6 col-lg-3 col-xl-3 tm-album-col">
           <figure class="effect-sadie">
-            <img src="/yii2app/web/img/slide-2.jpg" alt="Image" class="img-fluid">
+            <img src="/yii2app/web/index_theme/img/slide-2.jpg" alt="Image" class="img-fluid">
             <figcaption>
               <!-- <h2>Album Two</h2> -->
               <p>Maecenas iaculis et turpis et iaculis. Aenean at volutpat diam.</p>
@@ -83,7 +83,7 @@ AppAsset::addScript($this,Yii::$app->request->baseUrl."/js/.js");
         </div>
         <div class="col-sm-6 col-12 col-md-6 col-lg-3 col-xl-3 tm-album-col">
           <figure class="effect-sadie">
-            <img src="/yii2app/web/img/slide-2.jpg" alt="Image" class="img-fluid">
+            <img src="/yii2app/web/index_theme/img/slide-2.jpg" alt="Image" class="img-fluid">
             <figcaption>
               <!-- <h2>Third Album</h2> -->
               <p>Vivamus eget elit purus. Nullam consectetur porttitor elementum.</p>
@@ -92,7 +92,7 @@ AppAsset::addScript($this,Yii::$app->request->baseUrl."/js/.js");
         </div>
         <div class="col-sm-6 col-12 col-md-6 col-lg-3 col-xl-3 tm-album-col">
           <figure class="effect-sadie">
-            <img src="/yii2app/web/img/slide-2.jpg" alt="Image" class="img-fluid">
+            <img src="/yii2app/web/index_theme/img/slide-2.jpg" alt="Image" class="img-fluid">
             <figcaption>
               <!-- <h2>Album Four</h2> -->
               <p>Praesent nec feugiat dolor, elementum mollis purus. Etiam faucibus.</p>
@@ -113,7 +113,7 @@ AppAsset::addScript($this,Yii::$app->request->baseUrl."/js/.js");
         <div class="col-xl-12">
           <div class="media-boxes">
             <div class="media">
-              <img src="/yii2app/web/img/shutterstock.jpg" alt="Image" class="mr-3">
+              <img src="/yii2app/web/index_theme/img/shutterstock.jpg" alt="Image" class="mr-3">
               <div class="media-body tm-bg-orange">
                 <div class="tm-description-box">
                   <h5 class="tm-text-blue">Vivamus eget urna vitae ante</h5>
@@ -127,7 +127,7 @@ AppAsset::addScript($this,Yii::$app->request->baseUrl."/js/.js");
             </div>
 
             <div class="media">
-              <img src="/yii2app/web/img/shutterstock.jpg" alt="Image" class="mr-3">
+              <img src="/yii2app/web/index_theme/img/shutterstock.jpg" alt="Image" class="mr-3">
               <div class="media-body tm-bg-orange">
                 <div class="tm-description-box">
                   <h5 class="tm-text-pink">Proin fermentum sapien sed nisl</h5>
@@ -141,7 +141,7 @@ AppAsset::addScript($this,Yii::$app->request->baseUrl."/js/.js");
             </div>
 
             <div class="media">
-              <img src="/yii2app/web/img/shutterstock.jpg" alt="Image" class="mr-3">
+              <img src="/yii2app/web/index_theme/img/shutterstock.jpg" alt="Image" class="mr-3">
               <div class="media-body tm-bg-orange">
                 <div class="tm-description-box">
                   <h5 class="tm-text-blue">Quisque dignissim porta nunc</h5>
@@ -155,7 +155,7 @@ AppAsset::addScript($this,Yii::$app->request->baseUrl."/js/.js");
             </div>
 
             <div class="media">
-              <img src="/yii2app/web/img/shutterstock.jpg" alt="Image" class="mr-3">
+              <img src="/yii2app/web/index_theme/img/shutterstock.jpg" alt="Image" class="mr-3">
               <div class="media-body tm-bg-orange">
                 <div class="tm-description-box">
                   <h5 class="tm-text-pink">Vestibulum mattis quam sodales</h5>
@@ -169,7 +169,7 @@ AppAsset::addScript($this,Yii::$app->request->baseUrl."/js/.js");
             </div>
 
             <div class="media">
-              <img src="/yii2app/web/img/shutterstock.jpg" alt="Image" class="mr-3">
+              <img src="/yii2app/web/index_theme/img/shutterstock.jpg" alt="Image" class="mr-3">
               <div class="media-body tm-bg-orange">
                 <div class="tm-description-box">
                   <h5 class="tm-text-blue">Vestibulum mattis quam sodales</h5>

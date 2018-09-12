@@ -1,0 +1,24 @@
+header {
+    background-color: black;
+}
+.navbar-inverse {
+    background-color: black;
+}
+.banner {
+    background-image: url(../img/West-Orlando-Handyman-Services.jpg);
+    min-height: 200px;
+}
+.header-brand {
+    padding-top: 40px;
+    padding-left: 100px;
+}
+
+.page-head-line {
+    font-weight: 1000;
+    padding-bottom: 20px;
+    border-bottom: 2px solid black;
+    text-transform: uppercase;
+    color: orange;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
