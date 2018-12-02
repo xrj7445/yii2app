@@ -125,4 +125,18 @@ class SiteController extends Controller
     {
         return $this->render('about');
     }
+    
+    /**
+     * 11/26 dashboard (admin, using adminLTE)
+     * 11/28 dashboard (admin, using adminLTE)
+     * Displays dashboard page.
+     *
+     * @return string
+     */
+    public function actionDashboard()
+    {
+        $this->layout = 'dashboard';
+        return $this->render ('dashboard');
+    }
+    
 }
